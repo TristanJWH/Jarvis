@@ -17,13 +17,23 @@ Articles are available detailing more information about [how it works](https://w
 * ```sudo apt install python3-pip python3-pyaudio sox libsox-fmt-all```
 * ```pip3 install speech_recognition gtts wikipedia wolframalpha```
 
-## API Keys
+## Variables
+
+### API Keys
 
 Get an API key from Wolframalpha at [https://products.wolframalpha.com/api/](https://products.wolframalpha.com/api/).
 
 Get an Open Weather Map API Key at [https://openweathermap.org/price](https://openweathermap.org/price).
 
 Store both in their variables in the app.py file in that variables section.
+
+### Lat and Lon
+
+Enter your lat and lon in the variables section of the app.py file (for use with weather).
+
+### Audio Devices
+
+Run the command ```pactl list short sinks``` to see running speakers then change that audio devices variable in app.py.
 
 # How this Program Works
 
